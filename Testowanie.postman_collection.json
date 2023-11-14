@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "ab741256-de75-483b-ba15-e5460129df4a",
+		"name": "Testowanie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31026504"
+	},
+	"item": [
+		{
+			"name": "1",
+			"item": [
+				{
+					"name": "get goals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/goals/{goal_id}?goals_id=2",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"goals",
+								"{goal_id}"
+							],
+							"query": [
+								{
+									"key": "goals_id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get username",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/goals/domi",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"goals",
+								"domi"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post goals",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/goals?goal=mmm",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"goals"
+							],
+							"query": [
+								{
+									"key": "goal",
+									"value": "mmm"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete goals",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/goals/12f32d16-f983-4b07-a1e7-943a295ba6c6",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"goals",
+								"12f32d16-f983-4b07-a1e7-943a295ba6c6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT GOALS",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/goals/1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"goals",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "2",
+			"item": []
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://127.0.0.1:8000/"
+		}
+	]
+}
