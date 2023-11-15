@@ -94,7 +94,7 @@ This folder contains API requests related to goals.
 - **URL:** ("https://api.imgur.com/3/account/dxmi133/settings")
 - **Purpose:** Put your account's settings
 
-#### 2.5. Request: delete a comment
+#### 2.6. Request: delete a comment
 
 - **Method:** DELETE
 - **URL:** ("https://api.imgur.com/3/comment/1")
@@ -131,4 +131,6 @@ GoalsApi and Imgur Api
 ## Conclusion
 
 This README provides an overview of our testing APIs process and our requests.
+We used this API, cause that was the only tutorial on yt, that we understood 
+ about testing API :)
 
