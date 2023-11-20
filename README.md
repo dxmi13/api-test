@@ -128,6 +128,10 @@ Testing these operations ensures the reliability and robustness of the API, prov
 
 GoalsApi and Imgur Api
 
+## SECRET VARIABLES
+
+Imgur Api needs Oauth2 token to work. That's why users should use config.json.example file to put in their own credentials and then delete the rename it to config.json for it to work.
+
 ## Conclusion
 
 This README provides an overview of our testing APIs process and our requests.

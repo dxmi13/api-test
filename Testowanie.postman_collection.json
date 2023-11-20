@@ -104,7 +104,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "8958cb41453832111d28e1a75a3084f5335a83d1"
+								"token": "${config.token}"
 							}
 						},
 						"method": "GET",
@@ -121,8 +121,8 @@
 							"oauth2": {
 								"tokenName": "siema siema",
 								"addTokenTo": "queryParams",
-								"clientSecret": "d586b17aeb3046c028723822dbbef836b6d30a1e",
-								"clientId": "37637338ac5a7cd",
+								"clientSecret": "${config.clientSecret}",
+								"clientId": "${config.clientId}",
 								"client_authentication": "header",
 								"accessTokenUrl": "https://api.imgur.com/oauth2/token",
 								"authUrl": "https://api.imgur.com/oauth2/authorize"
@@ -140,7 +140,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "8958cb41453832111d28e1a75a3084f5335a83d1"
+								"token": "${config.token}"
 							}
 						},
 						"method": "GET",
@@ -155,7 +155,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "8958cb41453832111d28e1a75a3084f5335a83d1"
+								"token": "${config.token}"
 							}
 						},
 						"method": "POST",
@@ -170,7 +170,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "8958cb41453832111d28e1a75a3084f5335a83d1"
+								"token": "${config.token}"
 							}
 						},
 						"method": "PUT",
@@ -185,7 +185,7 @@
 						"auth": {
 							"type": "bearer",
 							"bearer": {
-								"token": "8958cb41453832111d28e1a75a3084f5335a83d1"
+								"token": "${config.token}"
 							}
 						},
 						"method": "DELETE",
@@ -212,11 +212,11 @@
 		},
 		{
 			"key": "client_id",
-			"value": "37637338ac5a7cd"
+			"value": "${config.clientId}"
 		},
 		{
 			"key": "client_secret",
-			"value": "d586b17aeb3046c028723822dbbef836b6d30a1e"
+			"value": "${config.clientSecret}"
 		}
 	]
 }
